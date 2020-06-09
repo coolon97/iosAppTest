@@ -13,6 +13,7 @@
 		D9EB837724879B0B00DD9BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EB837624879B0B00DD9BCA /* Assets.xcassets */; };
 		D9EB837A24879B0B00DD9BCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EB837924879B0B00DD9BCA /* Preview Assets.xcassets */; };
 		D9EB837D24879B0B00DD9BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EB837B24879B0B00DD9BCA /* LaunchScreen.storyboard */; };
+		D9EB8385248F870B00DD9BCA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EB8384248F870B00DD9BCA /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D9EB837924879B0B00DD9BCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9EB837C24879B0B00DD9BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9EB837E24879B0B00DD9BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9EB8384248F870B00DD9BCA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D9EB837024879B0A00DD9BCA /* AppDelegate.swift */,
 				D9EB837224879B0A00DD9BCA /* SceneDelegate.swift */,
 				D9EB837424879B0A00DD9BCA /* ContentView.swift */,
+				D9EB8384248F870B00DD9BCA /* MapView.swift */,
 				D9EB837624879B0B00DD9BCA /* Assets.xcassets */,
 				D9EB837B24879B0B00DD9BCA /* LaunchScreen.storyboard */,
 				D9EB837E24879B0B00DD9BCA /* Info.plist */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9EB837124879B0A00DD9BCA /* AppDelegate.swift in Sources */,
+				D9EB8385248F870B00DD9BCA /* MapView.swift in Sources */,
 				D9EB837324879B0A00DD9BCA /* SceneDelegate.swift in Sources */,
 				D9EB837524879B0A00DD9BCA /* ContentView.swift in Sources */,
 			);

@@ -9,21 +9,32 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var angle = Angle(degrees: 0.0)
-    
-    var rotation: some Gesture{
-        RotationGesture().onChanged{angle in
-            self.angle = angle
-        }
-    }
     
     var body: some View {
         VStack{
-            Text("angle: \(Int(self.angle.degrees))")
+            MapView().frame(height: 300)
+                .edgesIgnoringSafeArea(.top)
+                
+            Image("lake")
+                .resizable().frame(width: 200, height: 200, alignment: .center)
+                .clipShape(Circle())
+                .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                .shadow(radius: 10)
+                .offset(y: -130)
+                .padding(.bottom, -130)
             
-            Image("lake").resizable().frame(width: 600, height: 300, alignment: .center)
-                .rotationEffect(self.angle)
-                .gesture(rotation)
+            VStack(alignment: .leading){
+                Text("Turtle lake").font(.title)
+                HStack(alignment: .top){
+                    Text("Joshua Tree National Park").font(.subheadline)
+                    Spacer()
+                    Text("California").font(.subheadline)
+                }
+            }.padding()
+            
+            Spacer()
+            
+            
         }
     }
 }
